@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="6dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="6dp">
+
+        <TextView
+            android:id="@+id/id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/nosurat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No Surat"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/pengirim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:text="Pengirim"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tujuan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:text="Tujuan"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/alamat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:text="Alamat"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/keterangan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:text="Keterangan"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+
