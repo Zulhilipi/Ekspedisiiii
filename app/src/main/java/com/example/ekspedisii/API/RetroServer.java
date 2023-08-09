@@ -4,7 +4,7 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class RetroServer {
-    private static final String baseURL = "http://192.168.42.233/surat/";
+    private static final String baseURL = "https://a807-36-85-218-115.ngrok-free.app/surat/";
     private static Retrofit retro;
 
     public static Retrofit konekRetrofit(){

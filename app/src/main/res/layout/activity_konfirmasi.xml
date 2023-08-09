@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Activity.Konfirmasi">
+
+    <EditText
+        android:id="@+id/et_nosurat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="No Surat"
+        android:textSize="20sp"
+        android:inputType="number"
+        />
+
+    <EditText
+        android:id="@+id/et_pengirim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pengirim"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:id="@+id/et_penerima"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Penerima"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:id="@+id/et_tujuan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tujuan"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:id="@+id/et_statussurat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Status Surat"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:id="@+id/et_keterangan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Keterangan"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/btn_simpan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Konfirmasi"
+        android:layout_marginTop="200dp"
+        />
+
+
+</LinearLayout>

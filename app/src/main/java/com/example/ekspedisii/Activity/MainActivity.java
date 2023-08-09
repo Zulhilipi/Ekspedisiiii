@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
     private SwipeRefreshLayout slrData;
     private ProgressBar pbData;
 
+
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -61,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
                 slrData.setRefreshing(false);
             }
         });
-        
+
     }
 
     public void retrieveData(){
